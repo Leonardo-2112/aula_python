@@ -1,9 +1,6 @@
 valor = float(input("Digite o valor da compra: "))
 tipo = int(input("Tipo de cliente (1-Comum, 2-VIP, 3-Premium): "))
-
 desconto = 0
-
-# Aplicar desconto
 if tipo == 1:
     desconto = 0
 elif tipo == 2:
@@ -17,7 +14,6 @@ elif tipo == 3:
 
 valor_final = valor - desconto
 
-# Calcular frete
 if valor_final < 200:
     frete = 25
 else:
