@@ -32,6 +32,7 @@ Neste repositório você encontrará:
    ```bash
    python --version
 3. Execute um arquivo Python com:
+    ```bash
     python nome-do-arquivo.py
 
 ## 📈 Progresso
